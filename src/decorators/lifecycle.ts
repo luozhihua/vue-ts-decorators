@@ -1,5 +1,5 @@
 import Vue from "vue";
-import {VueDecorator, VueDecoratorTarget} from "core";
+import {VueDecorator, VueDecoratorTarget} from "../utils/core";
 
 export type LifecycleName = "beforeCreate" | "created" | "beforeDestroy" | "destroyed" | "beforeMount" | "mounted" | "beforeUpdate" | "updated" | "activated" | "deactivated";
 

@@ -1,11 +1,11 @@
 import Vue from "vue";
-import { VueDecoratorTarget, VueDecorator, DecoratorFactory } from "core";
-import { TargetOrEventName, processEventArgs, merge } from "utils/util";
+import { VueDecoratorTarget, VueDecorator, DecoratorFactory } from "../utils/core";
+import { TargetOrEventName, processEventArgs, merge } from "../utils/util";
 
 export default function On(target: Vue, propertyKey: string): undefined;
 export default function On(eventName?: string, target?: (v: Vue) => Vue): DecoratorFactory<string>;
 export default function On(target: (v: Vue) => Vue, eventName?: string): DecoratorFactory<string>;
-export default function On(this: Vue, ...a: any[]): DecoratorFactory<string> | undefined {
+export default function On(this: Vue): DecoratorFactory<string> | undefined {
 	function on(
 		arg1: TargetOrEventName,
 		arg2: TargetOrEventName,

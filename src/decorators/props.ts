@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { VueDecorator, VueDecoratorTarget } from 'core';
+import { VueDecorator, VueDecoratorTarget } from '../utils/core';
 
 export default function Props(target: Vue, propertyKey: string): any;
 export default function Props(factory?: () => any): any;

@@ -1,5 +1,5 @@
 import Vue, {CreateElement, VNode} from "vue";
-import { VueDecoratorTarget, VueDecorator } from "core";
+import { VueDecoratorTarget, VueDecorator } from "../utils/core";
 
 export declare type RenderFunction = (createElement: CreateElement) => VNode;
 

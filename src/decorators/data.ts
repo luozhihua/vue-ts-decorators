@@ -1,5 +1,5 @@
 import Vue from "vue";
-import { VueDecoratorTarget, VueDecorator } from "core";
+import { VueDecoratorTarget, VueDecorator } from "../utils/core";
 
 export default function Data(target: Vue, propertyKey: string): any;
 export default function Data(factory?: () => any): any;
