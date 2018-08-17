@@ -1,6 +1,6 @@
 {
   "name": "vue-ts-decorators",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ES/TS decorators for VueJS.",
   "main": "dist/index.js",
   "typescript": {

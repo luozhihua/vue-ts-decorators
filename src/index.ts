@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Component, {mixins as Mixins} from 'vue-class-component';
+import Component, {mixins as Mixin} from 'vue-class-component';
 import { Inject, Model, Prop, Provide, Watch, Emit} from 'vue-property-decorator';
 import { State, Getter, Action, Mutation, namespace} from 'vuex-class'
 import Props from './decorators/props'
@@ -13,7 +13,8 @@ import Filter from './decorators/filter'
 export {
   Vue,
   Component,
-  Mixins,
+  Mixin,
+  Mixin as Mixins,
   Props,
   Prop,
   Watch,
@@ -24,6 +25,7 @@ export {
 
   // Vuety
   Lifecycle,
+  Lifecycle as LifeCycle,
   Data,
   Render,
   On,
