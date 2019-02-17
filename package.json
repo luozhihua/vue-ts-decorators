@@ -1,6 +1,6 @@
 {
   "name": "vue-ts-decorators",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "ES/TS decorators for VueJS.",
   "main": "dist/index.js",
   "typescript": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/luozhihua/vue-ts-decorators#readme",
   "dependencies": {
-    "vue-property-decorator": "^6.1.0",
+    "vue-property-decorator": "^7.3.0",
     "vuex-class": "^0.3.1"
   },
   "peerDependencies": {
